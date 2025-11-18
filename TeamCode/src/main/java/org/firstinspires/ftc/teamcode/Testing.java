@@ -12,10 +12,10 @@ public class Testing extends OpMode {
 
     ElapsedTime timer = new ElapsedTime();
 
+    // This is a comment
     @Override
     public void init(){
         telemetry.addData("Status", "This is initialized (:");
-
         leftFront = hardwareMap.get(DcMotor.class, "leftFront");
         rightFront = hardwareMap.get(DcMotor.class, "rightFront");
         leftBack = hardwareMap.get(DcMotor.class, "leftBack");
