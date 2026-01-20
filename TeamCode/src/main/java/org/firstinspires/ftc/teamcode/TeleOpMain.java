@@ -41,5 +41,7 @@ public class TeleOpMain extends OpMode {
         telemetry.addData("Flywheel ticks/sec", rob.flywheelMotor.getVelocity());
         telemetry.addData("Flywheel power", rob.flywheelMotor.getPower());
         telemetry.update();
+
+
     }
 }
