@@ -23,6 +23,6 @@ public class RobotHardware {
 
 
         // DRIVE TRAIN MOTORS
-        leftMotor.setDirection(DcMotor.Direction.REVERSE);
+        rightMotor.setDirection(DcMotor.Direction.REVERSE);
     }
 }
